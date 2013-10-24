@@ -1,7 +1,8 @@
 var express = require('express')
     , http = require('http')
     , exphbs  = require('express3-handlebars')
-    , pub = __dirname + '/public';
+    , pub = __dirname + '/public'
+    , port = process.env.PORT || 3000;
 
 app = express();
 
@@ -65,5 +66,5 @@ app.get('/', function (req, res) {
 
 });
 
-app.listen(3000);
+app.listen(port);
 console.log('server running!');
