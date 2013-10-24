@@ -1,0 +1,30 @@
+<ul class="locations">
+  {{#result}}
+  <li class="locations-inner pure-u-1">
+    <a href="#" title="{{ stationName }}" class="locations-button Hdb">
+      <h3> {{ stationName }} </h3>
+    </a>
+      <div class="locations-container Hdn">
+        <div class="locations-content">
+          <span class="Hdib lbl"> Status: </span>
+          <span class="Hdib"> {{ statusValue }} </span>
+        </div>
+
+        <div class="locations-content">
+          <span class="Hdib lbl"> Available Bikes: </span>
+          <span class="Hdib"> {{ availableBikes }} </span>
+        </div>      
+
+        <div class="locations-content">
+          <span class="Hdib lbl"> Available Docks (spaces): </span>
+          <span class="Hdib"> {{ availableDocks }} </span>
+        </div>
+
+        <div class="locations-content">
+          <span class="Hdib lbl"> Address: </span>
+          <span class="Hdib"> {{ location }} </span>
+        </div>
+      </div>
+  </li>
+  {{/result}}
+</ul>
