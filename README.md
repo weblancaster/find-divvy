@@ -1,4 +1,7 @@
-# ${1:Find Divvy Bikes}
+# Divvy Bikes
+
+## Project
+Show Divvy bikes locations, how many bikes available, how many docks (parks) available and Dock Status.
 
 ## What is Divvy
 Divvy (Bikes) is Chicago's newest transit system with hundreds of stations across the city. 24/7
